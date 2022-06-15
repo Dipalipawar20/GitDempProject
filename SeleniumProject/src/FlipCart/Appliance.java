@@ -14,12 +14,14 @@ public class Appliance
 	
 	public static void main(String[] args) throws InterruptedException
 	{
-		
+	 	
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hp\\Desktop\\New folder\\chromedriver.exe");
 	
 	      WebDriver driver = new ChromeDriver();
 	      
 	      driver.manage().window().maximize();
+	      
+	     
 	      
 	      driver.get("https://www.flipkart.com");
 	      
@@ -54,6 +56,8 @@ public class Appliance
 			act.moveToElement(ele).perform();
 			
 			driver.findElement(By.xpath("//a[text()='Home Appliances']")).click();
+			
+			
 	
 	}
 	
