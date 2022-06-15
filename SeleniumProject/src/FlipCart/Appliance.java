@@ -21,7 +21,7 @@ public class Appliance
 	      
 	      driver.manage().window().maximize();
 	      
-	     
+	     // open url
 	      
 	      driver.get("https://www.flipkart.com");
 	      
@@ -57,7 +57,7 @@ public class Appliance
 			
 			driver.findElement(By.xpath("//a[text()='Home Appliances']")).click();
 			
-			System.out.println("hi");
+			System.out.println("Home appliance page opned");
 			
 	
 	}
