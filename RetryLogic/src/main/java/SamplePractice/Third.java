@@ -2,7 +2,7 @@ package SamplePractice;
 
 import org.testng.annotations.Test;
 
-public class SecondTest 
+public class Third 
 {
 	@Test
 	public void firstTest()
